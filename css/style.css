@@ -1,0 +1,76 @@
+.body-back {
+  background-image: url(../images/basketback.jpg);
+}
+
+.container-start {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 35px;
+  gap: 20px;
+}
+
+.nba {
+  border: 2px red solid;
+  flex-basis: 25%;
+}
+
+img {
+  width: 500px;
+}
+
+.container-info {
+  border: 3px solid blue;
+}
+
+.infopic {
+  width: 500px;
+  border: 3px solid blue;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* .kobebig {
+  display: flex;
+  border: 2px blue solid;
+  justify-content: center;
+}
+
+.kobesmall {
+  display: flex;
+  border: 2px red solid;
+  margin-top: 30px;
+  flex-wrap: row wrap;
+  gap: 10px;
+}
+
+.michaelbig {
+  border: 2px red solid;
+  display: flex;
+  justify-content: center;
+}
+.michaelsmall {
+  border: 2px green solid;
+  display: flex;
+  margin-top: 30px;
+  flex-flow: row wrap;
+  gap: 5px;
+} */
+
+.projectbig {
+  border: 2px red solid;
+  display: flex;
+  justify-content: center;
+}
+
+.projectsmall {
+  border: 2px green solid;
+  display: flex;
+  margin-top: 30px;
+  flex-flow: row wrap;
+  gap: 5px;
+}

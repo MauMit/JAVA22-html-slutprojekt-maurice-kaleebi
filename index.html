@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <link
       rel="stylesheet"
@@ -18,9 +18,18 @@
         <ul class="navbar-nav d-flex flex-row">
           <li><a class="navbar-brand" href="">Hem</a></li>
           <li>
-            <a class="navbar-brand" href="./html/info.html">Information</a>
+            <a class="navbar-brand" href="/html/info.html">Information</a>
           </li>
-          <li><a class="navbar-brand" href="">Kontakt</a></li>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Players
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="./html/projekt1.html">Kobe Bryant</a>
+              <a class="dropdown-item" href="./html/projekt2.html">Michael Jordan</a>
+              <a class="dropdown-item" href="/html/projekt3.html">Lebron James</a>
+              <a class="dropdown-item" href="/html/projekt4.html">Allen Iverson</a>
+            </div>
         </ul>
       </div>
     </nav>
@@ -28,30 +37,31 @@
     <div class="container-start">
       <div class="nba">
         <h1>Kobe Bryant</h1>
-        <a href="./html/projekt1.html">
+        <a href="../html/projekt1.html">
           <img src="images/kobe.png" alt="Kobe" />
         </a>
       </div>
 
       <div class="nba">
         <h1>Michael Jordan</h1>
-        <a href="./html/projekt2.html">
+        <a href="../html/projekt2.html">
           <img src="images/mj.png" alt="MJ" />
         </a>
       </div>
 
       <div class="nba">
         <h1>Lebron James</h1>
-        <a href="./html/projekt3.html"
+        <a href="/html/projekt3.html"
           ><img src="images/lebron.png" alt="Lebron"
         /></a>
       </div>
       <div class="nba">
         <h1>Allen Iverson</h1>
-        <a href="./html/projekt4.html">
+        <a href="/html/projekt4.html">
           <img src="images/allen.png" alt="Allen" />
         </a>
       </div>
+    </div>
     </div>
 
     <footer>

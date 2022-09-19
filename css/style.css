@@ -7,13 +7,13 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 35px;
   gap: 20px;
 }
 
 .nba {
-  border: 2px red solid;
+  /* border: 2px red solid; */
   flex-basis: 25%;
 }
 
@@ -62,15 +62,19 @@ h1 {
 } */
 
 .projectbig {
-  border: 2px red solid;
+  /* border: 2px red solid; */
   display: flex;
   justify-content: center;
 }
 
 .projectsmall {
-  border: 2px green solid;
+  /* border: 2px green solid; */
   display: flex;
   margin-top: 30px;
   flex-flow: row wrap;
   gap: 5px;
+}
+
+p {
+  text-align: center;
 }

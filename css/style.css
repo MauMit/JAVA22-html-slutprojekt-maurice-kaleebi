@@ -1,5 +1,15 @@
 .body-back {
   background-image: url(../images/basketback.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.infoback {
+  background-image: url(/images/infoback.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container-start {
@@ -7,31 +17,35 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* border: 1px solid black; */
   padding: 35px;
   gap: 20px;
 }
 
-.nba {
-  /* border: 2px red solid; */
-  flex-basis: 25%;
+.playercontainer {
+  /* box-sizing: border-box; */
+}
+
+img:hover {
+  box-shadow: 2px 2px 15px;
+  transition: 0.5s;
 }
 
 img {
   width: 500px;
-  box-shadow: inset;
 }
 
 .container-info {
-  border: 3px solid blue;
+  margin-bottom: 15vh;
 }
 
 .infopic {
   width: 500px;
-  border: 3px solid blue;
+
+  margin-top: 25vh;
+  margin-left: 70vh;
 }
 
-h1 {
+.h1player {
   text-align: center;
   color: white;
   -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -45,32 +59,40 @@ h1 {
   }
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #000000;
   }
 }
 
 .h1start {
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .projectbig {
-  /* border: 2px red solid; */
   display: flex;
   justify-content: center;
 }
 
+.projectbig img {
+  width: 700px;
+}
+
 .projectsmall {
-  /* border: 2px green solid; */
+  box-sizing: content-box;
   display: flex;
-  margin-top: 30px;
   flex-flow: row wrap;
   gap: 5px;
+  margin-top: 20px;
+}
+
+.projectsmall img {
+  width: 500px;
 }
 
 p {
   text-align: center;
   color: white;
+  margin: 30px 500px;
 }
 
 .nav-item {
@@ -78,19 +100,13 @@ p {
   font-size: 20px;
 }
 
-.navbar-brand {
-  display: table-cell;
-}
-
 ul {
   gap: 20px;
+  display: flex;
+  align-items: center;
 }
 
-.dropdown-menu a {
-  position: relative;
-}
-
-.nav-link {
+.navbar-nav .dropdown-menu {
   position: absolute;
 }
 

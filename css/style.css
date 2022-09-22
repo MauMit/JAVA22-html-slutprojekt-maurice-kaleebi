@@ -25,6 +25,7 @@
   flex-wrap: wrap;
   padding: 35px;
   gap: 20px;
+  
 }
 
 .container-info {
@@ -60,12 +61,11 @@ img:hover {
 .h1player {
   text-align: center;
   color: white;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
       0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -101,9 +101,10 @@ img:hover {
   width: 500px;
 }
 
-p {
+footer{
   text-align: center;
   color: whitesmoke;
+  text-shadow: 2px 10px 5px gold;
 }
 
 .infotext {
@@ -132,12 +133,11 @@ ul {
   width: 500px;
   margin: auto;
   padding: 30px;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes glow {
+@keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
       0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;

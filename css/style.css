@@ -2,9 +2,10 @@
   position: absolute;
 }
 
-.body-back {
+.back-start {
   background-image: url(../images/basketback.jpg);
   background-size: cover;
+  height: 100vh;
 }
 
 .infoback {
@@ -24,6 +25,7 @@
   flex-wrap: wrap;
   padding: 35px;
   gap: 20px;
+  
 }
 
 .container-info {
@@ -99,17 +101,19 @@ img:hover {
   width: 500px;
 }
 
-p {
+footer{
+
   display: flex;
   justify-content: center;
-  color: white;
-  font-style: italic;
+  color: whitesmoke;
 }
 
 .infotext {
-  margin: 30px 500px;
+  width: 500px;
+  margin: auto;
   color: white;
   font-style: italic;
+  padding-top: 50px;
 }
 
 .nav-item {
@@ -127,7 +131,9 @@ ul {
   font-weight: bold;
   text-align: center;
   color: black;
-  margin: 30px 500px;
+  width: 500px;
+  margin: auto;
+  padding: 30px;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }

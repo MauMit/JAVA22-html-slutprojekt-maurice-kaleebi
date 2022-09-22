@@ -28,37 +28,25 @@
 
 .container-info {
   box-sizing: border-box;
-  border: 2px solid blue;
- 
+  height: 100vh;
 }
 
-.infopic{
+.infopic {
   display: flex;
   justify-content: center;
 }
 
 .infopic img {
   width: 500px;
+  margin-top: 100px;
 }
 
-.infopic img:hover{
+.infopic img:hover {
   border-radius: 50%;
   width: 700px;
   transition: 1s;
 }
 
-/* .infofoot{
-  border: solid red 4px;
-  margin-top: 200px;
-
-} */
-
-
-footer{
-
-  position: fixed;
-  bottom: 0;
-}
 .nba img {
   width: 500px;
 }
@@ -67,8 +55,6 @@ img:hover {
   box-shadow: 2px 2px 15px;
   transition: 0.5s;
 }
-
-
 
 .h1player {
   text-align: center;
@@ -114,9 +100,15 @@ img:hover {
 }
 
 p {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color: white;
+  font-style: italic;
+}
+
+.infotext {
   margin: 30px 500px;
+  color: white;
   font-style: italic;
 }
 

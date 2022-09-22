@@ -29,7 +29,6 @@
 .container-info {
   box-sizing: border-box;
   border: 2px solid blue;
-  padding-bottom: 100vh;
  
 }
 
@@ -48,14 +47,18 @@
   transition: 1s;
 }
 
-.infofoot p{
+/* .infofoot{
   border: solid red 4px;
-  display: flex;
-  flex-direction: column;
- justify-self: flex-start;
+  margin-top: 200px;
 
+} */
+
+
+footer{
+
+  position: fixed;
+  bottom: 0;
 }
-
 .nba img {
   width: 500px;
 }
